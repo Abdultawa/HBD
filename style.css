@@ -1,0 +1,37 @@
+/* .container{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+    box-shadow: 3px 3px white;
+    /* border-bottom: solid rgb(212, 196, 196); 
+    background: white;
+} */
+
+div{
+width: 80%;
+height: 1000px;
+margin: auto;
+background-image: url(pht1.jpg);
+animation-name: my ;
+animation-duration: 4s;
+position: relative;
+animation-delay: -2s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+animation-timing-function: ease-in-out;
+background-position: center;
+}
+@keyframes my {
+0%{background-image: url(pht1.jpg);}
+50%{background-image:url(pht2.jpg) ;}
+100%{background-image: url(pht3.jpg);}
+}
+@media only screen and (max-width: 640px) {
+   div{
+   width: 100%;
+   
+}
+    
+
+}
